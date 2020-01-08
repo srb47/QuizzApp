@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_alt"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_qc"
+            android:icon="@drawable/ic_check_square"
+            android:title="@string/menu_qc" />
+
+        <item
+            android:id="@+id/nav_qp"
+            android:icon="@drawable/ic_play_circle"
+            android:title="@string/menu_qp" />
+
+        <item
+            android:id="@+id/nav_sm"
+            android:icon="@drawable/ic_book_open"
+            android:title="@string/menu_sm" />
+
+        <item
+            android:id="@+id/nav_mgq"
+            android:icon="@drawable/ic_file_check_alt"
+            android:title="@string/menu_mgq" />
+
+        <item
+            android:id="@+id/nav_mentors"
+            android:icon="@drawable/ic_comments_alt"
+            android:title="@string/menu_mentors" />
+
+
+        <item
+            android:id="@+id/nav_lb"
+            android:icon="@drawable/ic_chart_line"
+            android:title="@string/menu_lb" />
+
+        <item
+            android:id="@+id/nav_ht"
+            android:icon="@drawable/ic_history"
+            android:title="@string/menu_ht" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_question_circle"
+                android:title="@string/menu_about"/>
+
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_comment_lock"
+                android:title="@string/menu_privacy" />
+
+            <item
+                android:id="@+id/nav_terms"
+                android:icon="@drawable/ic_envelope_exclamation"
+                android:title="@string/menu_terms" />
+
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/ic_star_half_alt"
+                android:title="@string/menu_rating" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_alt"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>

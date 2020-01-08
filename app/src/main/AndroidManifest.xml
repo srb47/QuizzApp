@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topjal.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".StudyMode"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ExamMode"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MentorQuizzes"
+            android:parentActivityName=".MentorsActivity" />
+        <activity
+            android:name=".MentorsActivity"
+            android:parentActivityName=".MentorsProfile" />
+        <activity
+            android:name=".AvailableQuizzes"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".NewGenQuiz" />
+        <activity
+            android:name=".ChattingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MentorsProfile"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuizFinal"
+            android:parentActivityName=".QuizList"
+            android:theme="@style/AppTheme.NoActionBar.No" />
+        <activity
+            android:name=".RecentAcitivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QuizList"
+            android:parentActivityName=".Bangla" />
+        <activity
+            android:name=".Bangla"
+            android:parentActivityName=".ClassOne" />
+        <activity
+            android:name=".ClassOne"
+            android:parentActivityName=".MyBundle" />
+        <activity
+            android:name=".MyBundle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar.No" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar.No" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

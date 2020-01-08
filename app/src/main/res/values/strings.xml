@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="forgot_password">Forgot Your Password? <u>Tap Here</u></string>
+    <string name="dont_have">Don\'t Have an account?</string>
+    <string name="have">Already have an account?</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sourab Hasan</string>
+    <string name="nav_header_subtitle">@sourab.hasan</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_profile">Profile</string>
+
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    //Drawer Menu
+    <string name="menu_home">Home</string>
+    <string name="menu_qp">Quick Play</string>
+    <string name="menu_sm">Study Mode</string>
+    <string name="menu_qc">Subscribe</string>
+    <string name="menu_mgq">My Generated Quiz</string>
+    <string name="menu_mentors">Chat with Mentors</string>
+    <string name="menu_ht">History</string>
+    <string name="menu_bm">Bookmark</string>
+    <string name="menu_lb">Leaderboard</string>
+    <string name="menu_about">About</string>
+    <string name="menu_privacy">Privacy</string>
+    <string name="menu_terms">Terms and Condition</string>
+    <string name="menu_rating">Rating</string>
+    <string name="menu_share">Share</string>
+
+
+    <string name="class_name">Class One</string>
+    <string name="quiz_number">Total Question: 220</string>
+    <string name="score">Your Rank 98</string>
+    <string name="username">@sourab.hasan</string>
+    <string name="ins_name">Shariatpur Polytechnic Institute</string>
+
+    <string name="subject_chapter">Bangla, Chapter-1 \n Quiz-1</string>
+
+
+    <string name="quiz_question">Are You More Like Tris From "Divergent" or Katniss From "The Hunger Games"?</string>
+    <string name="quiz_question_big">Are You More Like Tris From "Divergent" Or
+Katniss From "The Hunger Games"? Are You
+More Like Tris From "Divergent" Or Katniss
+From "The Hunger Games"?</string>
+    <string name="quiz_ans">The Hunger Games</string>
+
+
+    <string name="good_morning">Good Morning,</string>
+    <string name="good_afternoon">Good Afternoon,</string>
+    <string name="good_night">Good Night,</string>
+    <string name="cover_sub_title">Here is many quiz waiting for you.</string>
+</resources>
